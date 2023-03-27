@@ -1,10 +1,19 @@
+/* Light Mode  */
+:root {
+  --bg-color: rgb(225, 221, 221);
+  --text-color: rgb(31, 31, 31);
+  --link-color: blueviolet
+}
+
 body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
   font-family: monospace;
 }
 
 a {
   text-decoration: none;
-  color: blueviolet;
+  color: var(--link-color)
 }
 
 a:focus,
